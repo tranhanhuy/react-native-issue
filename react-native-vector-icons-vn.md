@@ -2,6 +2,24 @@ Link: https://react-native-elements.github.io/react-native-elements/docs/
 
 Sau khi install hay link react-native-vector-icons vẫn không thể run project. Sau đây là các bước sửa, có thể giúp project của bạn run được.
 
+# Một số lỗi
+
+> duplicate output file ‘/Volumes/CodeSpace/ReactNative/myapp/ios/build/myapp/Build/Products/Debug-iphonesimulator/myapp.app/MaterialCommunityIcons.ttf’ on task: PhaseScriptExecution [CP] Copy Pods Resources /Volumes/CodeSpace/ReactNative/myapp/ios/build/myapp/Build/Intermediates.noindex/myapp.build/Debug-iphonesimulator/myapp.build/Script-FEAAB8C4F704294882D02001.sh (in target ‘myapp’ from project ‘myapp’)
+
+> Build system information
+warning: The iOS Simulator deployment target is set to 7.0, but the range of supported deployment target versions for this platform is 8.0 to 12.2.99. (in target 'BVLinearGradient')
+
+> Build system information
+warning: The iOS Simulator deployment target is set to 4.3, but the range of supported deployment target versions for this platform is 8.0 to 12.2.99. (in target 'nanopb')
+
+> Build system information
+warning: The iOS Simulator deployment target is set to 7.0, but the range of supported deployment target versions for this platform is 8.0 to 12.2.99. (in target 'GTMSessionFetcher')
+
+> Unrecognized font family 'Ionicons'
+
+> unrecognized font family 'fontawesome'
+
+
 # 1. Mở Podfile của iOS 
 
 Thay thế
